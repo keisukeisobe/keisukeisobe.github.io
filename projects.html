@@ -5,67 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="https://kit.fontawesome.com/d195b078d0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <main role="main" class="main">
-    <nav role="navigation">
-        <ul class="ul-nav-buttons">
-          <li class="li-nav-buttons">
-            <a class="a-nav-buttons" href="#projects">Projects</a>
-          
-          <li class="li-nav-buttons">
-            <a class="a-nav-buttons" href="about-me">About Me</a>
-          
-          <li class="li-nav-buttons">
-            <a class="a-nav-buttons" href="#contact">Contact</a>
-          
-        </ul>
+  <main class="main">
+    <nav>
+      <ul class="ul-nav-buttons">
+        <li class="li-nav-buttons">
+            <a class="a-nav-buttons" href="index.html">Home</a>  
+  
+        <li class="li-nav-buttons">
+          <a class="a-nav-buttons" href="projects.html">Projects</a>
+        
+        <li class="li-nav-buttons">
+          <a class="a-nav-buttons" href="about-me.html">About Me</a>
+                  
+      </ul>
     </nav>
-    <header role="banner" class="header-text">
+    <header class="header-text">
         <h1 class = "header-1">Projects</h1>
     </header>
 
-    <section role="projects" class="projects">
+    <section class="projects">
       <h2 class="project-title">NFL Records Quiz</h2>
-      <img src="/images/Quiz_App_1.png" alt="Quiz App Sample Photo" class="project-image">
+      <img src="images/quiz-app-1.png" alt="Quiz App Sample" class="project-image">
       <p class="technologies">
           <i class="devicon-css3-plain-wordmark devicon"></i>
           <i class="devicon-html5-plain-wordmark devicon"></i>
           <i class="devicon-javascript-plain devicon"></i>
           <i class="devicon-jquery-plain-wordmark devicon"></i>
       </p>
-      <p class="project-desc">A quick and easy NFL records-themed quiz app that presents users with a series of multiple-choice questions and keeps track of the user's score.</p>
+      <p class="project-desc">A quick and easy NFL records-themed quiz app that presents users with a series of multiple-choice questions and keeps track of the user's score. I built this app to test my JQuery and Javascript skills.</p>
       <ul class="ul-view-code-view-app">
           <li class="li-view-code">
-            <a class="a-nav-buttons" href="https://github.com/thinkful-ei-heron/Dan_Kei_quizApp">View Code</a>
+            <a class="a-nav-buttons-project" href="https://github.com/thinkful-ei-heron/Dan_Kei_quizApp" target="_blank">View Code</a>
           
           <li class="li-view-app">
-            <a class="a-nav-buttons" href="https://thinkful-ei-heron.github.io/Dan_Kei_quizApp/">View Project</a>
+            <a class="a-nav-buttons-project" href="https://thinkful-ei-heron.github.io/Dan_Kei_quizApp/" target="_blank">View Project</a>
       </ul>
     </section>
 
-    <section role="projects" class="projects">
+    <section class="projects">
       <h2 class="project-title">Bookmarks App</h2>
-      <img src="/images/Bookmarks_App_1.png" alt="Bookmarks App Sample Photo" class="project-image">
+      <img src="images/bookmarks-app-1.png" alt="Bookmarks App Sample" class="project-image">
       <p class="technologies">
         <i class="devicon-css3-plain-wordmark devicon"></i>
         <i class="devicon-html5-plain-wordmark devicon"></i>
         <i class="devicon-javascript-plain devicon"></i>
         <i class="devicon-jquery-plain-wordmark devicon"></i>
       </p>
-      <p class="project-desc">Bookmarks app connected to Thinkful's Bookmarks API. Users can save bookmarks with a title, rating, and description, edit bookmarks, and expand an individual bookmark to view details.</p>
+      <p class="project-desc">Bookmarks app connected to Thinkful's Bookmarks API. Users can save bookmarks with a title, rating, and description, edit bookmarks, and expand an individual bookmark to view details. I built this app to practice working with making API calls.</p>
       <ul class="ul-view-code-view-app">
           <li class="li-view-code">
-            <a class="a-nav-buttons" href="https://github.com/thinkful-ei-heron/kei-bookmarks-app">View Code</a>
+            <a class="a-nav-buttons-project" href="https://github.com/thinkful-ei-heron/kei-bookmarks-app" target="_blank">View Code</a>
           
           <li class="li-view-app">
-            <a class="a-nav-buttons" href="https://thinkful-ei-heron.github.io/kei-bookmarks-app/">View Project</a>
+            <a class="a-nav-buttons-project" href="https://thinkful-ei-heron.github.io/kei-bookmarks-app/" target="_blank">View Project</a>
       </ul>
     </section>
-    <footer role="content-info">
-        <a class="contact-me" href= "#contact">Contact Me!</a>
-    </footer>    
   </main>
+  <footer id="contact">
+    <h6 class="about-me-header">Social Links</h6>
+    <ul class="contact-me-ul contact-me-ul-bottom">
+      <li class="social-link">
+        <a class="" href="http://www.github.com/keisukeisobe" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="social-link">
+        <a class="" href="http://www.linkedin.com/in/kisobe" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li> 
+      <li class="social">
+        <a class="social-link" href="mailto:keisuke.isobe.2011@gmail.com">
+          <i class ="far fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>
