@@ -89,6 +89,7 @@ section:nth-child(even) {
   flex: 1;
   display: grid;
   grid-template-columns: 50% 50%;
+  height: 100%;
 }
 
 .about-me-link {
@@ -102,6 +103,7 @@ section:nth-child(even) {
   border-right-style: solid;
   border-color: black;
   padding: 5% 5%;
+  height: 100%;
 }
 
 .projects-link {
@@ -115,6 +117,7 @@ section:nth-child(even) {
   border-left-style: solid;
   border-color: black;
   padding: 5% 5%;
+  height: 100%;
 }
 
 .about-me-header {
