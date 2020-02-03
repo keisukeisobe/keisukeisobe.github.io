@@ -266,6 +266,13 @@ section:nth-child(even) {
   color: white;
 }
 
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 @media screen and (min-width: 650px) {
   body {
     max-width: 650px;
